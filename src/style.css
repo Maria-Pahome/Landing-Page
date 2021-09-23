@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css');
+
+body{
+  background-color: #f9f5f5;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow-X: hidden;
+}
+
+#header {
+  width:  99%;
+  height: 100px;
+  border-bottom: solid white 1px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  background: #eadada;
+}
+
+
+.logo-wrapper{
+  width: 100px;
+  height: auto;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+#header-img{
+  margin-top: 20px;
+  width: 100%;
+  height: auto;
+  border-radius: 50% 50%;
+  opacity: 0.8;
+}
+
+#bar-nav{
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+
+#bar-nav li {
+  list-style: none;
+  padding-right: 60px;
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+#bar-nav ul, .features-wrapper, .text-wrapper, footer, .gallery-wrapper{
+  display: flex;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  font-family: 'Pattaya', sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#form{
+  margin: 0 auto 0;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  color: #e78181;
+  margin-top: 80px;
+}
+
+#form label {
+  margin-top: 10px;
+  font-family: 'Pattaya', sans-serif;
+  letter-spacing: 0.5px;
+  font-size: 25px;
+}
+
+#form input {
+  font-family: sans-serif;
+  margin-top: 15px;
+  width: 250px;
+  height: 30px;
+  padding-left: 10px;
+  border: solid grey 1px;
+  font-size: 15px;
+  color: #f9eeee;
+}
+
+button {
+  border-radius: 8px;
+  width: 120px;
+  height: 30px;
+  border: none;
+  background: #e78181;
+  font-family: 'Pattaya', sans-serif;
+  letter-spacing: 1px;
+  transition: background-color 1s;
+}
+
+button a{
+ color: black;
+}
+
+.features-wrapper{
+  flex-direction:  column;
+  height: auto; 
+  width: 70%;
+  margin: 0 auto 0;
+  margin-top: 40px;
+}
+
+.features-wrapper i{
+  margin-top: 20px;
+  color: #e78181;
+  padding-right: 15px;
+  font-size: 40px;
+}
+
+.text-reference {
+  color: black;
+  font-family: sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.text-wrapper{
+  justify-content: space-between;
+  text-align: justify;
+}
+
+i:hover{
+  color: #923a3a;
+}
+
+button:hover{
+  background: #923a3a;
+}
+
+button a:hover{
+  color: white;
+}
+.fa-fire{
+  padding-left: 10px;
+}
+
+.video{
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin-top: 30px;
+}
+/*pricing*/
+.chic-hats {
+  margin-top: 30px;
+  width: 900px;
+  height: 250px;
+  margin-right: 30px;
+  padding: 5px;
+  border: solid #d04372 2px;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 550;
+  color: #d04372;
+}
+
+.chic-hats img{
+  width: 100%;
+  height: 130px;
+  
+}
+
+.btn{
+  color: white;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.gallery-wrapper {
+  width: 100%;
+  margin: 0 auto 0;
+}
+/*footer*/
+footer{
+  width: 98%;
+  height: 40px;
+  background: #e78181;
+  flex-direction: column;
+  font-family: sans-serif;
+  font-size: 14px;
+  text-align: center;
+  padding-right: 30px;
+  padding-top: 10px;
+  font-weight: 550;
+  color: white;
+}
+
+.video i {
+  font-size: 15px;
+  padding-right: 4px;
+}
+
+footer span{
+  padding-right: 10px;
+}
+
